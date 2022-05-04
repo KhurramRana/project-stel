@@ -17,11 +17,11 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 export default function AddDriver() {
   const formik = useFormik({
     initialValues: {
-      name: "",
+      /*name: "",
       phone: "",
       cnic: "",
       lisense: "",
-      yearOfExp: "",
+      yearOfExp: "",*/
     },
     validationSchema: Yup.object({
       name: Yup.number().max(255).required("Name is required"),
